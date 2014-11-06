@@ -1,0 +1,77 @@
+.events{
+	width: 68%;
+	display: inline-block;
+}
+.segundoFondo
+{
+	background-image: url("../imagenes/fondoLibro3.jpg");
+	background-size: contain;
+}
+
+.generalList
+{
+	width: 80%;
+	/*height: 477px;*/
+	border: 5px solid black;
+	border-radius: 10%;
+	margin: 0 auto;
+	margin-top: 30px;
+	background-image: url("../imagenes/fondocrema.jpg");
+	position:relative;
+}
+
+
+	.listFields
+	 {
+			margin-left: 113px;
+			margin-top: 20px;
+	 }
+		.dimInput
+		{
+			width: 81%;
+			height: 27px;
+			margin-bottom: 3px;
+		}
+
+		.content
+		{
+			width: 81%;
+		}
+
+	.button 
+	{
+		width: 11%;
+		height: 23px;
+		background-color: red;
+		position: absolute;
+		bottom: 22px;
+		right: 16px;
+		text-align: center;
+		color: white;
+	}
+
+	.nameButton
+	{
+		margin-top: 3px;
+	}
+
+	.input2
+	{
+		width: 60%;
+		height: 20px;
+		background-color: #e6e6fa;
+		margin-left: 130px;
+		margin-top: 20px;
+		border: 1px solid black;
+	}
+
+	.input3 
+	{
+		width: 60%;
+		height: 100px;
+		background-color: #e6e6fa;
+		margin-left: 130px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		border: 1px solid black;
+	}

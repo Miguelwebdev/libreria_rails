@@ -1,0 +1,89 @@
+.maing{
+	height: 3200px;
+}
+.booksection{
+	width: 68%;
+	display: inline-block;
+}
+
+	.sectiontitle
+	{
+		font-family: 'Shadows Into Light', cursive;
+		font-size: 80px;
+		font-weight: bolder;
+		text-shadow: 3px 3px 3px white;
+	}
+
+	.dimart 
+
+		{
+			border: 3px solid #696969;
+			border-radius: 10px 10px;
+			width: 48%;
+			height: 450px;
+			margin: 15px 10px 10px 7px;
+			position: relative;
+			display: inline-block;
+			background-color: lavender;
+
+			z-index: 0;
+		
+			/*transition: width 1s, height 1s, font-size 1s, float 1s;*/
+		}
+		.dimart:hover{
+			width: 100%;
+			height: 800px;
+			font-size: 30px;
+			background-color: lavender;
+			z-index: 22;
+			margin-left: 0px;
+			transition: 1s;
+		}
+		.right:hover{
+			margin-left: -550px;
+		}
+
+			.booktitle
+			{
+				font-family: arial;
+				font-size: 20px;
+				font-weight: bolder;
+				margin: 5px;
+			}
+
+			.imgs
+			{
+				width: 30%;
+				height: 48%;
+				left: 5px;
+				top: 50px;
+				position:absolute;
+			}
+
+			.abstract
+
+			{
+				display: inline-block;
+				width:60%;
+				margin: 30px 5px 5px 5px;
+				position: absolute;
+				right: 5px;
+				top: 5px;
+				right: 5px;
+
+			}
+
+			.infolist 
+			{
+					width: 48%;
+				/* border: 2px solid black; */
+				margin: 5px;
+				position: absolute;
+
+				bottom: 8px;
+				left:5px;
+	
+				bottom: 5px;
+				left: 5px;
+			}	
+

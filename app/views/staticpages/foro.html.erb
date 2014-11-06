@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Hora de Lecturas</title>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css">
+		<link rel="stylesheet" type="text/css" href="../css/config.css">
+		<link rel="stylesheet" type="text/css" href="../css/libros.css">
+		<link rel="stylesheet" type="text/css" href="../css/anoveles.css">
+	</head>
+	<body>
+		<header class="title">
+			<nav class="navbar cf">
+				<ul class="navlist">
+					<li class="navpage">
+						<a href="/libros">Inicio</a>
+					</li>
+					<li class="navpage">
+						<a href="/generos">Géneros</a>
+						<ul>
+							<li class="nav"><a href="/generos#terror">Terror</a></li>			
+							<li class="nav"><a href="/generos#suspense">Suspense</a></li>
+							<li class="nav"><a href="/generos#adventures">Aventuras</a></li>
+						</ul>
+					</li>
+					<li class="navpage">
+						<a href="/eventos">Eventos</a>
+					</li>
+					<li class="navpage">
+						<a href="/libroviajero">El libro viajero</a>
+					</li>
+					<li class="navpage">
+						<a href="/foro">Foro</a>
+					</li>
+					<li class="navpage">
+						<a href="/anoveles">Autores noveles</a>
+					</li>
+					<li class="navpage">
+						<a href="/sugaleatoria">Sugerencia aleatoria</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<div class="main">
+<aside class="leftaside">
+			<ul>
+				<p class = "publiTitle">Librerias especializadas</p>
+				<li>		
+					<a href="http://www.casadellibro.com"><%= image_tag 'casalibro.gif' %>
+					</a>
+				</li>	
+				
+				<li >
+					<a href="http://www.bookcenter.es/"><%= image_tag 'bookCenter.jpg' %></a>
+				</li>	
+			
+				<li >
+					<a href="http://www.fnac.es"><%= image_tag 'fnac.jpg' %></a>
+				</li>	
+			
+				
+				<li >
+					<a href="http://www.pageonegroup.com/"><%= image_tag 'pageOne.jpg' %></a>
+				</li>
+			</ul>
+	
+			<ul>
+				<p class = "publiTitle">Editoriales</p>
+				<li>		
+					<a href="http://www.akal.com/"><%= image_tag 'akal.jpg' %>
+					</a>
+				</li>	
+				
+				<li >
+					<a href="http://www.salamandra.info/"><%= image_tag 'salamandra.png' %></a>
+				</li>	
+			
+				<li >
+					<a href="http://www.anaya.es"><%= image_tag "anaya.jpg" %></a>
+				</li>	
+			
+				
+				<li >
+					<a href="http://www.gigamesh.com"><%= image_tag "gigamesh.jpg" %></a>
+				</li>
+			</ul>
+		</aside>	
+		<img  class = "construction" src="../imagenes/enconstruccion.jpg" alt="Página en construcción">
+		<aside class="rightaside">
+			<div>
+				<ul id="listalibros">
+				</ul>
+				<input id="entradalibros" class="inputlibros" type="text" value="">
+			</div>
+		</aside>
+		</div>
+		<footer class="foot cf">
+			<%= image_tag "logo_fb.png", class: "logoFooter" %>
+			<%= image_tag "twitter.png", class: "logoFooter" %>
+			<%= image_tag "pinterest.png", class: "logoFooter" %>
+			<ul class="footlist">
+				<li class="footlink">Política de privacidad</li>
+				<li class="footlink">Quiénes somos</li>
+				<li class="footlink">Contáctanos</li>
+				<li class="footlink">Trabaja con nosotros</li>
+			</ul>
+		</footer>		
+	</body>
+</html>

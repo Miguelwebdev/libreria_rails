@@ -1,0 +1,12 @@
+.construction
+{
+	width:68%;
+	display: inline-block;
+}
+.map_canvas{
+	width: 40%;
+	height: 400px;
+	background-color: #CCC;
+	display: inline-block;
+	margin: 1% 10%;
+}
